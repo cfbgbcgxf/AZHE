@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Windows Classic Search</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="window">
+      <div class="window-header">
+        <div class="window-title-bar">
+          <div class="logo-container">
+            <img src="icons/logo.png" alt="Logo" class="main-logo">
+          </div>
+        </div>
+      </div>
+      <div class="window-content">
+        <div class="search-container">
+          <input type="text" id="searchInput" class="search-box" placeholder="输入搜索内容...">
+          <div class="search-buttons">
+            <button class="classic-button" id="searchBtn">
+              <img src="icons/magnifying_glass-0.png" alt="搜索" class="search-icon">
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="window-footer">
+        <div class="status-bar">
+          <span class="status-text">Windows Classic Search v1.0</span>
+          <span class="status-time" id="currentTime"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
